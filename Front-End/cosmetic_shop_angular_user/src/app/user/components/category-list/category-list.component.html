@@ -1,0 +1,16 @@
+<section class="product-tabs section-padding position-relative">
+    <div class="container">
+        <h3 class="section-title style-1 mb-30"> Nos Meilleurs catégories </h3>
+        <div class="brand-container">
+            <div class="brand-list">
+                <div class="brand-items">
+                    <a title="{{c.name}}" [routerLink]="['/user/category/', c.id]" *ngFor="let c of categories">
+                        <img [src]="getImageUrl(c.image)" alt="Brand Logo" class="brand-item-img">
+                        <span class="product-count">{{categoryCounts[c.id]}} articles</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>

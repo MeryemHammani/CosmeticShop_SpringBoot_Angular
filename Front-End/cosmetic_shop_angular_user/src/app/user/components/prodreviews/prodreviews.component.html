@@ -1,0 +1,28 @@
+<div class="comment-list">
+    <div *ngFor="let r of reviews" class="single-comment justify-content-between d-flex mb-30">
+        <div class="user justify-content-between d-flex">
+            <div class="thumb text-center" style="display: flex; flex-direction: column;">
+                <img src="app/assets/_user/imgs/blog/author-1.png" alt="" />
+                <span class="brand-description">{{r.firstName}} {{r.lastName}}</span>
+            </div>
+            <div class="desc">
+                <div class="d-flex justify-content-between mb-10">
+                    <div class="d-flex align-items-center">
+                        <span class="font-xs text-muted">{{prodService.service.DateConvert(r.created_at)}} </span>
+                    </div>
+                    <div class="product-rate-cover">
+                        <div class="">
+                            <rating [ngModel]="r.rating" class="" [max]="5" [readonly]="true">
+                            </rating>
+
+                        </div>
+
+                    </div>
+                </div>
+                <p class="mb-10">{{r.review}}</p>
+            </div>
+        </div>
+    </div>
+
+
+</div>

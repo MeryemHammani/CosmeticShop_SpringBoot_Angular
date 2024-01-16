@@ -1,0 +1,30 @@
+<section class="product-tabs section-padding position-relative">
+    <div class="container">
+        <h3 class="section-title style-1 mb-30"> Nos produits </h3>
+
+
+        <!--End nav-tabs-->
+        <div *ngIf="products" class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="tab-one" role="tabpanel" aria-labelledby="tab-one">
+                <span class="product-count"> Affichage de {{ products.length }} sur {{ totalItems }}
+                    produits</span>
+                <app-list-products *ngIf="products" [products]="products"></app-list-products>
+
+
+                <div class="PrevNext">
+                    <button class="btn btn-xs" (click)="previousPage()" [disabled]="currentPage === 0">précédente<i
+                            class="fi-rs-arrow-small-left"></i></button>
+
+                    <button class="btn btn-xs" (click)="nextPage()" [disabled]="currentPage === totalPages-1">suivante<i
+                            class="fi-rs-arrow-small-right"></i></button>
+                </div>
+
+
+
+            </div>
+
+            <!--En tab seven-->
+        </div>
+        <!--End tab-content-->
+    </div>
+</section>

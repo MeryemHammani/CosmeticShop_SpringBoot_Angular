@@ -1,0 +1,50 @@
+<main class="main">
+    <div class="page-header breadcrumb-wrap">
+        <div class="container">
+            <div class="breadcrumb">
+                <a [routerLink]="['/user/home']" rel="nofollow"><i class="fi-rs-home mr-5"></i>Acceuil</a>
+                <span></span> <a [routerLink]="['/user/blog']">Blogs</a> <span></span>{{blog.title}}
+            </div>
+        </div>
+    </div>
+    <div class="page-content mb-50">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-11 col-lg-12 m-auto">
+                    <div class="row">
+                        <div class="col-lg-9">
+                            <div class="single-page pt-50 pr-30">
+                                <div class="single-header style-2">
+                                    <div class="row">
+                                        <div class="col-xl-10 col-lg-12 m-auto">
+                                            <h2 class="mb-10">{{blog.title}}
+                                            </h2>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="single-content">
+
+                                    <div class="row">
+                                        <div class="col-xl-10 col-lg-12 m-auto">
+                                            <img class="mb-30" style="
+                                            width: 100%;" [src]="getImageUrl(blog.image)" alt="" />
+                                            <span
+                                                class="product-count">{{blogService.service.DateConvert(blog.created_at)}}</span>
+
+                                            <p class="post-exerpt mb-40">{{blog.text}}</p>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

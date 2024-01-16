@@ -1,0 +1,26 @@
+<section class="text-center mb-50">
+    <div class="row">
+        <div class="col-lg-4 col-md-6 mb-24">
+            <div class="featured-card">
+                <img src="app/assets/_user/imgs/theme/icons/contact1.png" alt="" />
+                <h4>Our Location</h4>
+                <p>{{contact.address}}</p>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-24">
+            <div class="featured-card">
+                <img src="app/assets/_user/imgs/theme/icons/contact2.png" alt="" />
+                <h4>Contact us Anytime</h4>
+                <p>Mobile: {{contact.mobile}}<br><span *ngIf="contact.fax">Fax: {{contact.fax}}</span></p>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-24">
+            <div class="featured-card">
+                <img src="app/assets/_user/imgs/theme/icons/contact3.png" alt="" />
+                <h4>Support Overall</h4>
+                <p>{{contact.email}}</p>
+
+            </div>
+        </div>
+    </div>
+</section>

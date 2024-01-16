@@ -1,0 +1,65 @@
+<!-- Login Area Start Here -->
+<main class="main pages">
+    <div class="page-header breadcrumb-wrap">
+        <div class="container">
+            <div class="breadcrumb">
+
+                <a routerLink="/user/home"><i class="fi-rs-home mr-5"></i>Home</a>
+                <span></span> espace utilisateur <span></span>Se Connecter
+            </div>
+        </div>
+    </div>
+    <div class="page-content pt-150 pb-150">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-8 col-lg-10 col-md-12 m-auto">
+                    <div class="row">
+
+                        <div class="col-lg-6 col-md-8">
+                            <div class="login_wrap widget-taber-content background-white">
+                                <div class="padding_eight_all bg-white">
+                                    <div class="heading_s1">
+                                        <h1 class="mb-5">Login</h1>
+                                        <p class="mb-30">Vous n'avez pas de compte? <a routerLink="/user/register">Créer
+                                                un compte</a></p>
+                                    </div>
+                                    <small *ngIf="errorMessage" class="text-danger">
+                                        {{errorMessage}}
+                                    </small>
+                                    <form [formGroup]="form" (ngSubmit)="onSubmitLogin()">
+                                        <div class="form-group">
+                                            <input type="text" formControlName="email" name="email"
+                                                placeholder="Entrez votre adresse e-mail *" />
+                                            <small
+                                                *ngIf="form.controls['email'].errors && form.controls['email'].touched"
+                                                class="text-danger">
+                                                {{ userService.service.getErrorMessage( 'email',
+                                                form.controls['email'].errors)}}
+                                            </small>
+                                        </div>
+                                        <div class="form-group">
+                                            <input formControlName="password" type="password" name="password"
+                                                placeholder="Entrez votre Mot de passe *" />
+                                            <small
+                                                *ngIf="form.controls['password'].errors && form.controls['password'].touched"
+                                                class="text-danger">
+                                                {{ userService.service.getErrorMessage( 'le mot de passe',
+                                                form.controls['password'].errors)}}
+                                            </small>
+                                        </div>
+
+
+                                        <div class="form-group">
+                                            <button type="submit" class="btn btn-heading btn-block hover-up"
+                                                name="login" [disabled]="form.invalid">Se connecter</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

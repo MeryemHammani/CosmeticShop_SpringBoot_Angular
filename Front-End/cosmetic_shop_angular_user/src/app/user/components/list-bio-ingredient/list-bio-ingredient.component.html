@@ -1,0 +1,49 @@
+<main class="main pages">
+
+
+    <div class="page-content pt-50">
+        <div class="container">
+            <div class="">
+
+                <div class="slider-wrapper">
+                    <div class="image-list">
+                        <img class="image-item" src="app/assets/_user/imgs/bg/bg9.png" alt="img-1" />
+                    </div>
+
+                    <div style="margin: 6%;">
+                        <h1 class="my-title">Nous aimons nos ingrédients et seuls les meilleurs d'entre eux seront
+                            utilisés</h1>
+
+                        <p class="brand-description">C’est pourquoi nous prenons grand soin de sélectionner des
+                            ingrédients de la plus haute qualité et de les utiliser d’une
+                            manière respectueuse de la nature et efficace pour votre bien. Parce que la vraie beauté est
+                            celle qui commence de
+                            l'intérieur pour paraître ensuite de l'extérieur, tout comme nos ingrédients. Voici une
+                            sélection de nos ingrédients
+                            naturels préférés issus de la Suède et des quatre coins du monde !</p>
+
+                    </div>
+                </div>
+
+                <span *ngIf="!bioIngredients" class="product-count"> Les articles ne sont
+                    actuellement pas disponibles.</span>
+
+                <section class="product-tabs section-padding position-relative" *ngIf="bioIngredients">
+                    <span class="product-count">{{bioIngredients.length}} ingrédients</span>
+                    <div class="bioIngred-list">
+                        <a [routerLink]="['/user/bioIngredient/', b.id]" class="bioIngred-item"
+                            *ngFor="let b of bioIngredients">
+
+                            <img class="bioIngred-img"  [src]="getImageUrl(b.image)" alt="">
+
+                            <h1 class="my-title">{{b.name}}</h1>
+                        </a>
+                    </div>
+                </section>
+
+
+            </div>
+        </div>
+    </div>
+
+</main>

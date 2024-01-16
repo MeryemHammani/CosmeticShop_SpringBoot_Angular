@@ -1,0 +1,140 @@
+<main class="main pages">
+    <div class="page-header breadcrumb-wrap">
+        <div class="container">
+            <div class="breadcrumb">
+
+                <a routerLink="/user/home"><i class="fi-rs-home mr-5"></i>Home</a>
+                <span></span> espace utilisateur <span></span>S'inscrire
+            </div>
+        </div>
+    </div>
+    <div class="page-content pt-150 pb-150">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-8 col-lg-10 col-md-12 m-auto">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-8">
+                            <div class="login_wrap widget-taber-content background-white">
+                                <div class="padding_eight_all bg-white">
+                                    <div class="heading_s1">
+                                        <h1 class="mb-5">Créer un compte</h1>
+                                        <p class="mb-30">Déjà un compte ? <a routerLink="/user/login">Connexion</a>
+                                        </p>
+                                    </div>
+                                    <small *ngIf="errorMessage" class="text-danger">
+                                        {{errorMessage}}
+                                    </small>
+                                    <form [formGroup]="form" (ngSubmit)="onSubmitRegister()">
+                                        <div class="form-group">
+                                            <input type="text" placeholder="Prénom" formControlName="firstName" />
+                                            <small
+                                                *ngIf="form.controls['firstName'].errors && form.controls['firstName'].touched"
+                                                class="text-danger">
+                                                {{ userService.service.getErrorMessage( 'Prénom',
+                                                form.controls['firstName'].errors)}}
+                                            </small>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" placeholder="Nom" formControlName="lastName" />
+                                            <small
+                                                *ngIf="form.controls['lastName'].errors && form.controls['lastName'].touched"
+                                                class="text-danger">
+                                                {{ userService.service.getErrorMessage( 'Nom',
+                                                form.controls['lastName'].errors)}}
+                                            </small>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <input type="email" formControlName="email" placeholder="Email" />
+                                            <small
+                                                *ngIf="form.controls['email'].errors && form.controls['email'].touched"
+                                                class="text-danger">
+                                                {{ userService.service.getErrorMessage( 'email',
+                                                form.controls['email'].errors)}}
+                                            </small>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <input type="password" placeholder="Mot de passe"
+                                                formControlName="password" />
+                                            <small
+                                                *ngIf="form.controls['password'].errors && form.controls['password'].touched"
+                                                class="text-danger">
+                                                {{ userService.service.getErrorMessage( 'Mot de passe',
+                                                form.controls['password'].errors)}}
+                                            </small>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <input type="text" placeholder="Téléphone" formControlName="phone" />
+                                            <small
+                                                *ngIf="form.controls['phone'].errors && form.controls['phone'].touched"
+                                                class="text-danger">
+                                                {{ userService.service.getErrorMessage( 'Téléphone',
+                                                form.controls['phone'].errors)}}
+                                            </small>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" placeholder="Ville" formControlName="city" />
+                                            <!-- <small *ngIf="form.controls['city'].errors && form.controls['city'].touched" class="text-danger">
+                                                {{ userService.service.getErrorMessage( 'ville',
+                                                form.controls['city'].errors)}}
+                                            </small> -->
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" placeholder="Pays" formControlName="country" />
+                                            <!-- <small *ngIf="form.controls['country'].errors && form.controls['country'].touched" class="text-danger">
+                                                {{ userService.service.getErrorMessage( 'Pays',
+                                                form.controls['country'].errors)}}
+                                            </small> -->
+                                        </div>
+
+
+                                        <div class="payment_option mb-50">
+                                            <div class="custome-radio">
+                                                <input class="form-check-input" type="radio" formControlName="gender"
+                                                    value="F" id="exampleRadios3" checked="" />
+                                                <label class="form-check-label" for="exampleRadios3"
+                                                    data-bs-toggle="collapse" data-target="#bankTranfer"
+                                                    aria-controls="bankTranfer">femme</label>
+                                            </div>
+                                            <div class="custome-radio">
+                                                <input class="form-check-input" type="radio" formControlName="gender"
+                                                    value="M" id="exampleRadios4" checked="" />
+                                                <label class="form-check-label" for="exampleRadios4"
+                                                    data-bs-toggle="collapse" data-target="#checkPayment"
+                                                    aria-controls="checkPayment">Homme</label>
+                                            </div>
+                                        </div>
+
+                                        <div class="login_footer form-group mb-50">
+                                            <div class="chek-form">
+                                                <div class="custome-checkbox">
+                                                    <input class="form-check-input" type="checkbox" name="checkbox"
+                                                        id="exampleCheckbox12" reauired value="yes" />
+                                                    <label class="form-check-label" for="exampleCheckbox12"><span>
+                                                            J'accepte les conditions et la politique.</span></label>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="form-group mb-30">
+                                            <button type="submit"
+                                                class="btn btn-fill-out btn-block hover-up font-weight-bold"
+                                                name="login" [disabled]="form.invalid">Envoyer et S'inscrire</button>
+                                        </div>
+                                        <p class="font-xs text-muted"><strong>Note:</strong>Vos données personnelles
+                                            seront utilisées pour soutenir votre expérience sur ce site web, gérer
+                                            l'accès à votre compte,
+                                            et à d'autres fins décrites dans notre politique de confidentialité.</p>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

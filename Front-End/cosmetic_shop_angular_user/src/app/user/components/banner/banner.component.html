@@ -1,0 +1,36 @@
+<!-- <div style="width: 100%; height: 50%;">
+    <carousel [noWrap]="false" [showIndicators]="true">
+        <slide *ngFor="let s of sliders; let index=index">
+            <img [src]="s.image" alt="image slide" style="display: block; width: 100%;">
+            <div class="carousel-caption">
+                <h2 class="title">{{s.title}}</h2>
+                <p class="desc-content">{{s.description}}</p>
+                <a routerLink={{s.link}} class="btn flosun-button secondary-btn theme-color  rounded-0">{{s.button}}</a>
+            </div>
+        </slide>
+    </carousel>
+
+</div> -->
+
+
+<section class="home-slider position-relative mb-30">
+    <div class="container">
+        <div class="home-slide-cover mt-30">
+            <div class="hero-slider-1 style-4 dot-style-1 dot-style-1-position-1">
+                <carousel [noWrap]="false" [showIndicators]="true">
+                    <slide *ngFor="let s of sliders; let index=index">
+                        <img [src]="getImageUrl(s.image)" alt="image slide" style="display: block; width: 100%;">
+                        <div class="slider-content">
+                            <h1 class="bioIngred-title-main" style="margin-bottom: 10px;">
+                                {{s.title}}
+                            </h1>
+                            <p class="my-title">{{s.description}}</p>
+                            <button class="btn" type="submit" routerLink={{s.link}}>{{s.button}}</button>
+
+                        </div>
+                    </slide>
+                </carousel>
+            </div>
+        </div>
+    </div>
+</section>

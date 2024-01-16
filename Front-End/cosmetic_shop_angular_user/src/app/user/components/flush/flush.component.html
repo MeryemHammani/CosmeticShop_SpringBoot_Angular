@@ -1,0 +1,31 @@
+<section class="product-tabs section-padding position-relative" *ngFor="let f of flushes">
+    <div class="container" style="background-color: #dbc5c7;padding-top: 30px;">
+
+        <h3 style="margin: 30px; text-align: center; color: white;letter-spacing: 5px;">
+            {{f.description}}
+        </h3>
+
+        <h1 class="my-title" style="color: red; font-size: 1.5rem;"> {{f.remainingTime}}</h1>
+        <span class="product-count" style="color: #EFD9D1;">Dépêchez-vous, il reste encore peu de temps! </span>
+        <!--End nav-tabs-->
+        <div *ngIf="f.products" class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="tab-one" role="tabpanel" aria-labelledby="tab-one">
+                <!-- <span class="product-count"> Affichage de {{ f.products.length }} sur {{ totalItems }}
+                    produits</span> -->
+                <app-list-products *ngIf="f.products" [products]="f.products"></app-list-products>
+
+                <!-- <div class="PrevNext">
+                    <button class="btn btn-xs" (click)="previousPage()" [disabled]="currentPage === 0">précédente<i
+                            class="fi-rs-arrow-small-left"></i></button>
+
+                    <button class="btn btn-xs" (click)="nextPage()" [disabled]="currentPage === totalPages-1">suivante<i
+                            class="fi-rs-arrow-small-right"></i></button>
+                </div> -->
+
+            </div>
+
+            <!--En tab seven-->
+        </div>
+        <!--End tab-content-->
+    </div>
+</section>

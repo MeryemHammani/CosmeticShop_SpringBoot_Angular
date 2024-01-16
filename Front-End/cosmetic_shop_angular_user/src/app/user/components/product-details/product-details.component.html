@@ -1,0 +1,161 @@
+<main class="main">
+    <div class="page-header breadcrumb-wrap">
+        <div class="container">
+            <div class="breadcrumb">
+                <a routerLink="/user/home" rel="nofollow"><i class="fi-rs-home mr-5"></i>Acceuil</a>
+
+                <span
+                    [routerLink]="['/user/category/', prod.subcategory.category.id]">{{prod.subcategory.category.name}}</span>
+
+                <span [routerLink]="['/user/subcategory/', prod.subcategory.id]">{{prod.subcategory.name}}</span>
+            </div>
+        </div>
+    </div>
+    <div class="container mb-30">
+        <div class="row">
+            <div class="col-xl-10 col-lg-12 m-auto">
+                <div class="product-detail accordion-detail">
+                    <div class="row mb-50 mt-30">
+                        <div class="col-md-6 col-sm-12 col-xs-12 mb-md-0 mb-sm-5">
+                            <div class="detail-gallery">
+                                <span class="zoom-icon"><i class="fi-rs-search"></i></span>
+                                <!-- MAIN SLIDES -->
+                                <div class="product-image-slider">
+                                    <!-- <figure *ngFor="let i of prod.images" class="border-radius-10">
+                                        <img src="{{i.src}}" alt="product image" />
+                                    </figure> -->
+                                    <figure class="border-radius-10">
+                                        <img  [src]="getImageUrl(prod.image)" alt="product image" />
+                                    </figure>
+
+                                </div>
+                                <!-- THUMBNAILS -->
+                                <!-- <div class="slider-nav-thumbnails">
+                                    <div *ngFor="let i of prod.images"><img src="{{i.src}}" alt="product image" />
+                                    </div>
+                                </div> -->
+                            </div>
+                            <!-- End Gallery -->
+                        </div>
+                        <div class="col-md-6 col-sm-12 col-xs-12">
+                            <div class="detail-info pr-30 pl-30">
+                                <span class=""> {{prod.brand.name}} </span>
+                                <h2 class="title-detail">{{prod.name}}</h2>
+                                <div class="product-detail-rating">
+                                    <div class="product-rate-cover text-end">
+                                        <div class="product-rate-cover">
+                                            <div class="">
+                                                <rating [ngModel]="prod.rating" class="" [max]="5" [readonly]="true">
+                                                </rating>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="clearfix product-price-cover">
+                                    <div class="product-price primary-color float-left">
+                                        <span class="current-price text-brand">{{
+                                            prodService.discount(prod.price,prod.discount,prod.flush_discount)}}Dh</span>
+                                        <span>
+                                            <span *ngIf="prod.discount!=0 || prod.flush_discount!=0"
+                                                class="save-price font-md color3 ml-15"> {{
+                                                prodService.getDiscount(prod.price,prod.discount,prod.flush_discount)}}%Off</span>
+                                            <span class="old-price font-md ml-15"
+                                                *ngIf="prod.discount!=0 || prod.flush_discount!=0">
+                                                {{prod.price}}Dh</span>
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="attr-detail attr-size mb-30">
+                                    <span class="list-filter size-filter font-small">{{prod.code}} . {{prod.size}} ml
+                                    </span>
+                                </div>
+                                <div class="detail-extralink mb-50">
+                                    <div class="product-extra-link2">
+                                        <a aria-label="Add To Wishlist" class="action-btn hover-up"
+                                            (click)="addToWishList(prod.id)"><i class="fi-rs-heart"></i></a>
+                                        <a aria-label="Compare" class="action-btn hover-up" (click)="copyLink()"><i
+                                                class="fi-rs-shuffle"></i></a>
+                                        <a aria-label="Ajouter au panier" class="action-btn hover-up"
+                                            (click)="addToCart(prod)"><i class="fi-rs-shopping-cart mr-5"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Detail Info -->
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="tab-style3">
+                            <ul class="nav nav-tabs text-uppercase">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="Description-tab" data-bs-toggle="tab"
+                                        href="#Description">Description</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" id="Reviews-tab" data-bs-toggle="tab" href="#Reviews">Avis</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content shop_info_tab entry-main-content">
+                                <div class="tab-pane fade show active" id="Description">
+                                    <div class="">
+                                        <p>{{prod.description}}</p>
+                                        <h4 class="mt-30">Conseils d'Utilisation:</h4>
+                                        <hr class="wp-block-separator is-style-wide" />
+                                        <p>{{prod.how_to_use}}</p>
+                                        <h4 class="mt-30">Ingrédients</h4>
+                                        <hr class="wp-block-separator is-style-wide" />
+                                        <div class="brand-container">
+                                            <div class="brand-list">
+                                                <div class="brand-items">
+                                                    <a [routerLink]="['/user/bioIngredient/', i.id]"
+                                                        *ngFor="let i of bioIngreds">
+                                                        <img [src]="getImageUrl(i.image)"  alt="Brand Logo" class="brand-item-img">
+                                                        <span class="product-count"
+                                                            style="font-size: 10px;">{{i.name}}</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <p>{{prod.ingredients}}</p>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="Reviews">
+                                    <!--Comments-->
+                                    <div class="comments-area">
+                                        <div class="row">
+                                            <div class="col-lg-8">
+                                                <h4 class="mb-30">Les avis des clients</h4>
+                                                <app-prodreviews *ngIf="prod.id" [id]="prod.id"></app-prodreviews>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--comment form-->
+                                    <app-add-review *ngIf="prod.id" [id]="prod.id"></app-add-review>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- related products -->
+    <section class="product-tabs section-padding position-relative" *ngIf="products">
+        <div class="container">
+            <div class="col-12">
+                <h2 class="section-title style-1 mb-30">Produits Connexes</h2>
+            </div>
+            <!--End nav-tabs-->
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="tab-one" role="tabpanel" aria-labelledby="tab-one">
+                    <app-list-products *ngIf="products" [products]="products"></app-list-products>
+                </div>
+
+                <!--En tab seven-->
+            </div>
+            <!--End tab-content-->
+        </div>
+    </section>
+</main>

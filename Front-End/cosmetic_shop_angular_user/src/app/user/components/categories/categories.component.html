@@ -1,0 +1,74 @@
+<main class="main pages">
+    <div class="page-header breadcrumb-wrap">
+        <div class="container">
+            <div class="breadcrumb">
+                <a routerLink="/user/home" rel="nofollow"><i class="fi-rs-home mr-5"></i>Acceuil</a>
+                <span></span> Categories <span> {{category.name}}</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-content pt-50">
+        <div class="container">
+            <div class="">
+
+                <div class="slider-wrapper">
+                    <div class="image-list">
+                        <img class="image-item" src="app/assets/_user/imgs/bg/bg2.png" alt="img-1" />
+                    </div>
+                </div>
+                <ul class="menu-list">
+                    <li class="menu-item" *ngFor="let s of subcategories">
+
+                        <a [routerLink]="['/user/subcategory/', s.id]"> {{s.name}}</a>
+
+                    </li>
+                </ul>
+
+                <div style="margin: 6%;">
+                    <h1 class="my-title">{{category.name}}</h1>
+
+                    <p class="brand-description">{{category.description}}</p>
+
+                </div>
+                <span *ngIf="!products" class="product-count"> Les articles pour les {{category.name}} ne sont
+                    actuellement pas disponibles.
+
+                </span>
+                <section class="product-tabs section-padding position-relative" *ngIf="products">
+                    <div class="container">
+                        <div class="ingredient-line"></div>
+                        <!--End nav-tabs-->
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="tab-one" role="tabpanel"
+                                aria-labelledby="tab-one">
+                                <span class="product-count"> Affichage de {{ products.length }} sur {{ total }}
+                                    produits</span>
+                                <app-list-products *ngIf="products" [products]="products"></app-list-products>
+
+
+                                <div class="PrevNext">
+                                    <button class="btn btn-xs" (click)="previousPage()"
+                                        [disabled]="size <= step">moins<i class="fi-rs-arrow-small-left"></i></button>
+
+                                    <button class="btn btn-xs" (click)="nextPage()" [disabled]="size >= total">plus<i
+                                            class="fi-rs-arrow-small-right"></i></button>
+
+                                </div>
+
+
+
+                            </div>
+
+                            <!--En tab seven-->
+                        </div>
+                        <!--End tab-content-->
+                    </div>
+                </section>
+
+
+            </div>
+        </div>
+    </div>
+
+</main>

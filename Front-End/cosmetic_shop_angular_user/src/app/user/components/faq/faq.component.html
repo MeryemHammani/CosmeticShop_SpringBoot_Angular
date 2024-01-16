@@ -1,0 +1,36 @@
+<main class="main pages">
+    <div class="page-header breadcrumb-wrap">
+        <div class="container">
+            <div class="breadcrumb">
+                <a routerLink="/user/home" rel="nofollow"><i class="fi-rs-home mr-5"></i>Acceuil</a>
+                <span></span> <a routerLink="/user/faqCategories" rel="nofollow">FAQ</a> <span>
+                    {{name}}</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-content pt-50">
+        <div class="container">
+            <div class="">
+
+                <div class="slider-wrapper">
+                    <div class="image-list">
+                        <img class="image-item" src="app/assets/_user/imgs/bg/bg2.png
+                    " alt="img-1" />
+                    </div>
+                </div>
+
+                <div style="margin: 6%;">
+                    <h1 class="my-title">{{name}}</h1>
+                </div>
+
+                <div class="col-xl-8 col-lg-12 mx-auto">
+                    <div class="single-content mb-50" *ngFor="let f of faqItems let i = index">
+                        <h5>{{i+1}}. {{f.question}}</h5>
+                        <p>{{f.answer}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

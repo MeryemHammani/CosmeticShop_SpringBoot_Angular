@@ -1,0 +1,34 @@
+<!-- Single Tab Content Start -->
+<div class="card-header">
+    <h3 class="mb-0">Vos Commandes</h3>
+</div>
+<div class="card-body">
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Commande</th>
+                    <th>Date</th>
+                    <th>Status</th>
+                    <th>Total</th>
+                    <th>le type de paiment</th>
+                    <th>address</th>
+                    <th>phone</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let o of orders">
+                    <td>{{o.id}}</td>
+                    <td>{{ orderService.service.DateConvert(o.order_date)}}</td>
+                    <td>{{o.status}}</td>
+                    <td>{{o.amount}}DH</td>
+                    <td>{{o.payment_type}}</td>
+                    <td>{{o.address}}</td>
+                    <td>{{o.phone}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Single Tab Content End -->

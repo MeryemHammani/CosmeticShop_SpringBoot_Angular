@@ -1,0 +1,38 @@
+<div class="contact-from-area padding-20-row-col mb-80">
+    <h2 class="mb-10">Laissez-nous un message</h2>
+    <p class="text-muted mb-30 font-sm">Votre adresse e-mail ne sera pas publiée. Les champs obligatoires sont marqués *
+    </p>
+    <form [formGroup]="form" (ngSubmit)=" OnSaveReclamation()" class="contact-form-style mt-30" id="contact-form">
+        <div class="row">
+            <div class="col-lg-6 col-md-6">
+                <div class="input-style mb-20">
+                    <input formControlName="name" placeholder="Nom *" type="text" />
+                    <small *ngIf="form.controls['name'].errors && form.controls['name'].touched" class="text-danger">
+                        {{ supportService.service.getErrorMessage( 'nom', form.controls['name'].errors)}}
+                    </small>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="input-style mb-20">
+                    <input name="email" formControlName="email" placeholder="Email *" type="email" />
+                    <small *ngIf="form.controls['email'].errors && form.controls['email'].touched" class="text-danger">
+                        {{ supportService.service.getErrorMessage( 'email', form.controls['email'].errors)}}
+                    </small>
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12">
+                <div class="textarea-style mb-30">
+                    <textarea name="message" formControlName="message" placeholder="Message *"></textarea>
+                    <small *ngIf="form.controls['message'].errors && form.controls['message'].touched"
+                        class="text-danger">
+                        {{ supportService.service.getErrorMessage( 'message', form.controls['message'].errors)}}
+                    </small>
+                </div>
+
+                <button [disabled]="form.invalid" type="submit"
+                    class="btn flosun-button secondary-btn theme-color rounded-0">Envoyer un message</button>
+            </div>
+        </div>
+    </form>
+
+</div>

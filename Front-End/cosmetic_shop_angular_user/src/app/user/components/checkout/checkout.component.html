@@ -1,0 +1,145 @@
+<main class="main">
+    <div class="page-header breadcrumb-wrap">
+        <div class="container">
+            <div class="breadcrumb">
+                <a routerLink="/user/home" rel="nofollow"><i class="fi-rs-home mr-5"></i>Acceuil</a>
+                <span></span> Boutique<span></span> Checkout
+            </div>
+        </div>
+    </div>
+    <div class="container mb-80 mt-50">
+        <div class="row">
+            <div class="col-lg-8 mb-40">
+                <h1 class="heading-2 mb-10">Finalisation de la commande</h1>
+                <div class="d-flex justify-content-between">
+                    <span class="product-count"> Il y a {{carts.length}} articles dans la commande</span>
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-7">
+
+                <div class="row">
+                    <h4 class="mb-30">Détails de facturation</h4>
+                    <form [formGroup]="form" (ngSubmit)="onSaveOrder()">
+
+
+                        <div class="row">
+                            <div class="form-group col-lg-6">
+                                <input type="text" formControlName="address" placeholder="Addresse *">
+                                <small *ngIf="form.controls['address'].errors && form.controls['address'].touched"
+                                    class="text-danger">
+                                    {{ orderService.service.getErrorMessage( 'addresse',
+                                    form.controls['address'].errors)}}
+                                </small>
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <input type="text" formControlName="phone" placeholder="Tel *">
+                                <small *ngIf="form.controls['phone'].errors && form.controls['phone'].touched"
+                                    class="text-danger">
+                                    {{ orderService.service.getErrorMessage( 'Tel', form.controls['phone'].errors)}}
+                                </small>
+                            </div>
+                        </div>
+
+
+                        <div class="payment">
+                            <h4 class="mb-30">Paiement</h4>
+                            <div class="payment_option">
+                                <div class="custome-radio">
+                                    <input formControlName="payment_type" value="Virement Bancaire"
+                                        class="form-check-input" required="" type="radio" name="payment_option"
+                                        id="exampleRadios3" checked="">
+                                    <label class="form-check-label" for="exampleRadios3"
+                                        data-bs-toggle="collapse">Virement Bancaire Direct</label>
+                                </div>
+                                <div class="custome-radio">
+                                    <input formControlName="payment_type" value="Paiement en Espèces"
+                                        class="form-check-input" required="" type="radio" name="payment_option"
+                                        id="exampleRadios4" checked="">
+                                    <label class="form-check-label" for="exampleRadios4">Paiement en Espèces à la
+                                        Livraison</label>
+                                </div>
+                                <div class="custome-radio">
+                                    <input formControlName="payment_type" value="Paiement par Chèque"
+                                        class="form-check-input" required="" type="radio" name="payment_option"
+                                        id="exampleRadios5" checked="">
+                                    <label class="form-check-label" for="exampleRadios5">Paiement par Chèque</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <small *ngIf="form.controls['payment_type'].errors && form.controls['payment_type'].touched"
+                            class="text-danger">
+                            {{ orderService.service.getErrorMessage( 'type de paiement',
+                            form.controls['payment_type'].errors)}}
+                        </small>
+
+
+
+
+                        <button [disabled]="form.invalid" type="submit" class="btn btn-fill-out btn-block mt-30">Passer
+                            une commande<i class="fi-rs-sign-out ml-15"></i></button>
+
+                    </form>
+                </div>
+            </div>
+
+
+            <div class="col-lg-5">
+                <div class="border p-40 cart-totals ml-30 mb-50">
+                    <div class="d-flex align-items-end justify-content-between mb-30">
+                        <h4>Votre Commande</h4>
+                        <h6 class="text-muted">Le Sous-total</h6>
+                    </div>
+                    <div class="divider-2 mb-30"></div>
+                    <div class="table-responsive order_table checkout">
+                        <table class="table no-border">
+                            <tbody>
+
+                                <tr *ngFor="let c of carts">
+                                    <td class="image product-thumbnail"><img [src]="getImageUrl(c.product.image)"
+                                            alt="#">
+                                    </td>
+                                    <td>
+                                        <h6 class="w-160 mb-5"><a href="shop-product-full.html"
+                                                class="text-heading">{{c.product.name}}</a></h6>
+
+                                    </td>
+                                    <td>
+                                        <h6 class="text-muted pl-20 pr-20">x {{c.quantity}}</h6>
+                                    </td>
+                                    <td>
+                                        <h4 class="text-brand">{{c.sub_amount}}DH</h4>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+
+
+
+
+                        <table class="table no-border">
+                            <tbody>
+                                <tr>
+                                    <td class="cart_total_label">
+                                        <h6 class="text-muted">Le Montant Total</h6>
+                                    </td>
+                                    <td class="cart_total_amount">
+                                        <h4 class="text-brand text-end">{{total_price}}DH</h4>
+                                    </td>
+                                </tr>
+
+
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</main>
