@@ -1,0 +1,117 @@
+<div class="page-content custom-page-style">
+    <!--breadcrumb-->
+    <div class="page-breadcrumb d-none d-sm-flex align-items-center mb-3">
+        <div class="breadcrumb-title pe-3">Les détails de la commande</div>
+        <div class="ps-3">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb mb-0 p-0">
+                    <li class="breadcrumb-item"><a href="javascript:;"><i class="bx bx-home-alt"></i></a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Les détails de la commande</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!--end breadcrumb-->
+
+    <hr />
+
+    <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-2">
+        <div class="col">
+            <div class="card">
+                <div class="card-header">
+                    <h4>Shipping Details</h4>
+                </div>
+                <hr>
+                <div class="card-body">
+                    <table class="table" style="background:#F4F6FA;font-weight: 600;">
+                        <tr>
+                            <th>Email:</th>
+                            <th>{{ order.user.email }}</th>
+                        </tr>
+                        <tr>
+                            <th>la ville:</th>
+                            <th>{{ order.address }}</th>
+                        </tr>
+                        <tr>
+                            <th>Order Date:</th>
+                            <th>{{ order.order_date | date:'yyyy-MM-dd HH:mm:ss' }}</th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <div class="card-header">
+                    <h4>Order Details
+
+                        <hr>
+                        <div class="card-body">
+                            <table class="table custom-page-style" style="background:#F4F6FA;font-weight: 600;">
+                                <tr>
+                                    <th>Prenom:</th>
+                                    <th>{{ order.user.firstName }}</th>
+                                </tr>
+                                <tr>
+                                    <th>Nom:</th>
+                                    <th>{{ order.user.lastName }}</th>
+                                </tr>
+                                <tr>
+                                    <th>Payment Type:</th>
+                                    <th>{{ order.payment_type }}</th>
+                                </tr>
+                                <tr>
+                                    <th>Order Amount:</th>
+                                    <th>{{ order.amount }}dh</th>
+                                </tr>
+                                <tr>
+                                    <th>Order Status:</th>
+                                    <th>
+                                        <span class="badge bg-danger" style="font-size: 15px;">{{ order.status }}</span>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th></th>
+                                    <th>
+                                        <button *ngIf="order.status === 'pending'" r class="btn btn-block btn-success"
+                                            (click)="confirmOrder(order)">Confirm Order</button>
+                                        <button *ngIf="order.status === 'confirmed'" class="btn btn-block btn-success"
+                                            (click)="processOrder(order)">Processing Order</button>
+                                        <button *ngIf="order.status === 'processing'" class="btn btn-block btn-success"
+                                            (click)="deliverOrder(order)">Delivered Order</button>
+                                    </th>
+                                </tr>
+                            </table>
+                        </div>
+
+
+
+
+                        <div class="row">
+                            <div class="col">
+                                <h4>Products in the Order</h4>
+                                <!-- Add a debug output here to check the products array -->
+
+                                <table class="table custom-page-style">
+                                    <thead>
+                                        <tr>
+                                            <th>Product Name</th>
+                                            <th>Product Code</th>
+                                            <th>discount</th>
+                                            <th>Quantity</th>
+                                            <th>Price</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr *ngFor="let productWithQuantity of products">
+                                            <td>{{ productWithQuantity.products.name }}</td>
+                                            <td>{{ productWithQuantity.products.code }}</td>
+                                            <td>{{ productWithQuantity.products.discount }}</td>
+                                            <td>{{ productWithQuantity.quantity }}</td>
+                                            <td>{{ productWithQuantity.products.price }}dh</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>

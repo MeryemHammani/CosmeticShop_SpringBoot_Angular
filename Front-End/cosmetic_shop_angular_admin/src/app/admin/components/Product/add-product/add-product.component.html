@@ -1,0 +1,167 @@
+<div class="page-content">
+    <!--breadcrumb-->
+    <div class="page-breadcrumb d-none d-sm-flex align-items-center mb-3">
+        <div class="breadcrumb-title pe-3">Ajouter Produit </div>
+        <div class="ps-3">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb mb-0 p-0">
+                    <li class="breadcrumb-item"><a href="javascript:;"><i class="bx bx-home-alt"></i></a>
+                    </li>
+                    <li class="breadcrumb-item active" aria-current="page">Ajouter Produit </li>
+                </ol>
+            </nav>
+        </div>
+
+    </div>
+    <div class="card-body p-4">
+
+
+        <form [formGroup]="form" (ngSubmit)="onSubmit()" id="myForm" enctype="multipart/form-data">
+
+            <div class="form-body mt-4">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="border border-3 p-4 rounded">
+                            <div class="form-group mb-3">
+                                <label for="inputProductTitle" class="form-label">Nom du produit</label>
+                                <input type="text" formControlName="name" class="form-control" id="inputProductTitle"
+                                    placeholder="Enter product title">
+                            </div>
+
+                            <div class="form-group mb-3">
+                                <label for="inputProductDescription" class="form-label">Description</label>
+                                <textarea formControlName="description" class="form-control"
+                                    id="inputProductDescription" rows="3"></textarea>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="inputProductDescription" class="form-label">Ingredients</label>
+                                <textarea formControlName="ingredients" class="form-control" id="mytextarea"></textarea>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="inputProductDescription" class="form-label">Comment l'appliquer</label>
+                                <textarea formControlName="how_to_use" class="form-control" id="mytextarea"></textarea>
+                            </div>
+
+
+
+
+                            <div class="row mb-3">
+                                <div class="col-sm-3">
+                                    <label class="form-label">Image</label>
+                                </div>
+                                <div class="col-sm-9 text-secondary">
+                                    <div class="form-group col-sm-9 text-secondary">
+                                        <input type="file" formControlName="src" (change)="onFileSelected($event)"
+                                            accept="image/*">
+
+
+                                    </div>
+                                </div>
+                                <input type="hidden" name="image" />
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="border border-3 p-4 rounded">
+                            <div class="row g-3">
+                                <div class="form-group col-md-6">
+                                    <label for="inputPrice" class="form-label">Prix</label>
+                                    <input type="text" formControlName="price" class="form-control" id="inputPrice"
+                                        placeholder="00.00">
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label for="inputCompareatprice" class="form-label">Discount</label>
+                                    <input type="text" formControlName="discount" class="form-control"
+                                        id="inputCompareatprice" placeholder="00.00">
+                                </div>
+
+                                <div class="form-group col-md-6">
+                                    <label for="inputCostPerPrice" class="form-label">Code</label>
+                                    <input type="text" formControlName="code" class="form-control"
+                                        id="inputCostPerPrice" placeholder="00.00">
+                                </div>
+
+                                <div class="form-group col-md-6">
+                                    <label for="inputStarPoints" class="form-label">Quantité</label>
+                                    <input type="text" formControlName="quantity" class="form-control"
+                                        id="inputStarPoints" placeholder="00.00">
+                                </div>
+
+                                <div class="form-group col-md-6">
+                                    <label for="inputStarPoints" class="form-label">Taille</label>
+                                    <input type="text" formControlName="size" class="form-control" id="inputStarPoints"
+                                        placeholder="00.00">
+                                </div>
+
+
+
+                                <div class="form-group col-sm-9 text-secondary">
+                                    <label for="inputBrand" class="form-label">Marque</label>
+                                    <select formControlName="brandId" [(ngModel)]="selectedBrandId"
+                                        class="form-select mb-3" aria-label="Default select example">
+                                        <option value="">choisir une marque</option>
+                                        <option *ngFor="let brand of brands" [value]="brand.id">{{
+                                            brand.name }}</option>
+                                    </select>
+                                </div>
+
+
+                                <div class="form-group col-12">
+                                    <label for="inputBrand" class="form-label">BioIngredient</label>
+                                    <select formControlName="bioId" [(ngModel)]="selectedBioId" class="form-select mb-3"
+                                        aria-label="Default select example">
+                                        <option value="">choisir un bioIngredient</option>
+                                        <option *ngFor="let bio of bios" [value]="bio.id">{{ bio.name }}
+                                        </option>
+                                    </select>
+                                </div>
+
+
+                                <div class="form-group col-12">
+                                    <label for="inputSubcategory" class="form-label">Sous-catégorie</label>
+                                    <select formControlName="scategoryId" [(ngModel)]="selectedsCategoryId"
+                                        class="form-select mb-3" aria-label="Default select example">
+                                        <option value="">choisir une sous-categorie</option>
+                                        <option *ngFor="let subcategory of subcategories" [value]="subcategory.id">{{
+                                            subcategory.name }}</option>
+                                    </select>
+                                </div>
+
+
+
+                                <!-- Existing form fields -->
+
+                                <div class="col-12">
+                                    <div class="row g-3">
+                                        <div class="col-md-6">
+                                            <div class="form-check">
+                                                <input class="form-check-input" formControlName="offer" type="checkbox"
+                                                    id="specialOfferCheck" [value]="1">
+                                                <label class="form-check-label" for="specialOfferCheck">Offre
+                                                    spéciale</label>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="form-check">
+                                                <input class="form-check-input" formControlName="pack" type="checkbox"
+                                                    id="specialDealsCheck" [value]="1">
+                                                <label class="form-check-label" for="specialDealsCheck">Pack</label>
+                                            </div>
+                                        </div>
+
+                                    </div> <!-- // end row  -->
+                                </div>
+                                <hr>
+                                <div class="col-12">
+                                    <div class="d-grid">
+                                        <input type="submit" class="btn btn-primary px-4" value="Save Changes" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>

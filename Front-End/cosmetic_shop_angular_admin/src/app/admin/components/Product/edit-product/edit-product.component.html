@@ -1,0 +1,174 @@
+<div class="page-content">
+    <!--breadcrumb-->
+    <div class="page-breadcrumb d-none d-sm-flex align-items-center mb-3">
+        <div class="breadcrumb-title pe-3">Edit Product</div>
+        <div class="ps-3">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb mb-0 p-0">
+                    <li class="breadcrumb-item"><a href="javascript:;"><i class="bx bx-home-alt"></i></a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Edit Product</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!--end breadcrumb-->
+    <div class="card">
+        <div class="card-body p-4">
+            <h5 class="card-title">Modifier un produit</h5>
+            <hr />
+            <form #sliderForm="ngForm" (ngSubmit)="onSubmit()" enctype="multipart/form-data">
+
+                <input type="hidden" formControlName="id">
+
+                <div class="form-body mt-4">
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <div class="border border-3 p-4 rounded">
+                                <div class="form-group mb-3">
+                                    <label for="inputProductTitle" class="form-label">Nom du produit</label>
+                                    <input type="text" name="name" [(ngModel)]="product.name" class="form-control" />
+                                </div>
+
+                                <div class="form-group mb-3">
+                                    <label for="inputProductDescription" class="form-label">Description</label>
+                                    <textarea name="description" [(ngModel)]="product.description" class="form-control"
+                                        id="inputProductDescription" rows="3"></textarea>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="inputProductDescription" class="form-label">Ingredients</label>
+                                    <textarea name="ingredients" [(ngModel)]="product.ingredients" class="form-control"
+                                        id="inputProductDescription" rows="3"></textarea>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="inputProductDescription" class="form-label">Comment l'appliquer</label>
+                                    <textarea name="how_to_use" [(ngModel)]="product.how_to_use" class="form-control"
+                                        id="inputProductDescription" rows="3"></textarea>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="border border-3 p-4 rounded">
+                                <div class="row g-3">
+                                    <div class="form-group col-md-6">
+                                        <label for="inputPrice" class="form-label">Prix</label>
+                                        <input type="text" name="price" [(ngModel)]="product.price" class="form-control"
+                                            id="inputPrice">
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="inputCompareatprice" class="form-label">Discount</label>
+                                        <input type="text" name="discount" [(ngModel)]="product.discount"
+                                            class="form-control" id="inputCompareatprice">
+                                    </div>
+
+                                    <div class="form-group col-md-6">
+                                        <label for="inputCostPerPrice" class="form-label">Code</label>
+                                        <input type="text" name="code" [(ngModel)]="product.code" class="form-control"
+                                            id="inputCostPerPrice">
+                                    </div>
+
+                                    <div class="form-group col-md-6">
+                                        <label for="inputStarPoints" class="form-label">Quantité</label>
+                                        <input type="text" name="quantity" [(ngModel)]="product.quantity"
+                                            class="form-control" id="inputStarPoints">
+                                    </div>
+
+                                    <div class="form-group col-md-6">
+                                        <label for="inputStarPoints" class="form-label">Taille</label>
+                                        <input type="text" name="size" class="form-control" [(ngModel)]="product.size"
+                                            id="inputStarPoints">
+                                    </div>
+
+                                    <hr>
+                                    <hr>
+
+
+                                    <div class="row mb-3">
+                                        <div class="col-sm-3">
+                                            <label for="inputBrand" class="form-label">sous category</label>
+                                        </div>
+                                        <div class="form-group col-sm-9 text-secondary">
+                                            <select formControlName="scategory" class="form-select mb-3"
+                                                aria-label="Sélectionner une catégorie">
+                                                <option [ngValue]="null">Sélectionner une sous-catégorie</option>
+                                                <option *ngFor="let scategory of subcategories" [ngValue]="scategory">{{
+                                                    scategory.name }}</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="row mb-3">
+                                        <div class="col-sm-3">
+                                            <label for="inputBrand" class="form-label">Marque</label>
+                                        </div>
+                                        <div class="form-group col-sm-9 text-secondary">
+                                            <select formControlName="brand" class="form-select mb-3"
+                                                aria-label="Sélectionner une marque">
+                                                <option [ngValue]="null">Sélectionner une marque</option>
+                                                <option *ngFor="let brand of brands" [ngValue]="brand">{{
+                                                    brand.name }}</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="row mb-3">
+                                        <div class="col-sm-3">
+                                            <label for="inputBrand" class="form-label">BioIngredient</label>
+                                        </div>
+                                        <div class="form-group col-sm-9 text-secondary">
+                                            <select formControlName="bio" class="form-select mb-3"
+                                                aria-label="Sélectionner une catégorie">
+                                                <option [ngValue]="null">Sélectionner un ingrédient</option>
+                                                <option *ngFor="let bio of bios" [ngValue]="bio">{{
+                                                    bio.name }}</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+
+
+
+
+
+                                    <!-- Existing form fields -->
+
+                                    <div class="col-12">
+                                        <div class="row g-3">
+                                            <div class="col-md-6">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" formControlName="offer"
+                                                        type="checkbox" id="specialOfferCheck" [value]="1">
+                                                    <label class="form-check-label" for="specialOfferCheck">Offre
+                                                        spéciale</label>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" formControlName="pack"
+                                                        type="checkbox" id="specialDealsCheck" [value]="1">
+                                                    <label class="form-check-label" for="specialDealsCheck">Pack</label>
+                                                </div>
+                                            </div>
+                                        </div> <!-- // end row  -->
+                                    </div>
+                                    <hr>
+                                    <div class="col-12">
+                                        <div class="d-grid">
+                                            <input type="submit" class="btn btn-primary px-4" value="Enregistrer" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>

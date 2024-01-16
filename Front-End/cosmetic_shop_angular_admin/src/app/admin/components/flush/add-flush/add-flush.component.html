@@ -1,0 +1,42 @@
+<div class="card-body">
+    <form [formGroup]="yourForm">
+
+        <div class="form-group mb-3">
+            <h6 class="mb-0">Description</h6>
+            <textarea formControlName="description" class="form-control" id="inputProductDescription"
+                rows="3"></textarea>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-sm-3">
+                <h6 class="mb-0">Date de début</h6>
+            </div>
+            <div class="form-group col-sm-9 text-secondary">
+                <input type="datetime-local" formControlName="start_date" class="form-control" />
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-sm-3">
+                <h6 class="mb-0">Date de fin</h6>
+            </div>
+            <div class="form-group col-sm-9 text-secondary">
+                <input type="datetime-local" formControlName="end_date" class="form-control" />
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-sm-3">
+                <h6 class="mb-0">Produits</h6>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-9 text-secondary">
+                <input type="submit" class="btn btn-primary px-4" value="Save Changes" />
+            </div>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,114 @@
+<div class="page-content">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <!-- User Profile Info Display -->
+                <div class="card">
+                    <div class="card-body">
+                        <!-- Display user profile info here -->
+                        <img src="app/assets/images/adm.png" alt="Admin" class="rounded-circle p-1 bg-primary"
+                            width="110">
+                        <div class="mt-3">
+                            <h4>{{ adminData.lastName }}</h4>
+                            <p class="text-secondary mb-1">{{ adminData.email }}</p>
+
+                        </div>
+
+                    </div>
+                    <hr class="my-4" />
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                            <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round"
+                                    class="feather feather-globe me-2 icon-inline">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <line x1="2" y1="12" x2="22" y2="12"></line>
+                                    <path
+                                        d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                                    </path>
+                                </svg>Website</h6>
+                            <span class="text-secondary">https://codervent.com</span>
+                        </li>
+
+                        <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                            <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round"
+                                    class="feather feather-facebook me-2 icon-inline text-primary">
+                                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                                </svg>Facebook</h6>
+                            <span class="text-secondary">codervent</span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="col-lg-8">
+                <!-- User Profile Edit Form -->
+                <div class="card">
+                    <div class="card-body">
+                        <form (submit)="saveChanges()" enctype="multipart/form-data">
+                            <div class="row mb-3">
+                                <div class="col-sm-3">
+                                    <h6 class="mb-0">Nom</h6>
+                                </div>
+                                <div class="col-sm-9 text-secondary">
+                                    <!-- Editable name field -->
+                                    <input type="text" name="lastName" class="form-control"
+                                        [(ngModel)]="adminData.lastName" />
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-sm-3">
+                                    <h6 class="mb-0">Prenom</h6>
+                                </div>
+                                <div class="col-sm-9 text-secondary">
+                                    <!-- Editable name field -->
+                                    <input type="text" name="first_name" class="form-control"
+                                        [(ngModel)]="adminData.firstName" />
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-sm-3">
+                                    <h6 class="mb-0">Email</h6>
+                                </div>
+                                <div class="col-sm-9 text-secondary">
+                                    <!-- Editable email field -->
+                                    <input type="email" name="email" class="form-control"
+                                        [(ngModel)]="adminData.email" />
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-sm-3">
+                                    <h6 class="mb-0">telephone</h6>
+                                </div>
+                                <div class="col-sm-9 text-secondary">
+                                    <!-- Editable phone field -->
+                                    <input type="text" name="phone" class="form-control"
+                                        [(ngModel)]="adminData.phone" />
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-sm-3">
+                                    <h6 class="mb-0">Ville</h6>
+                                </div>
+                                <div class="col-sm-9 text-secondary">
+                                    <!-- Editable address field -->
+                                    <input type="text" name="city" class="form-control" [(ngModel)]="adminData.city" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-3"></div>
+                                <div class="col-sm-9 text-secondary">
+                                    <!-- Submit button to save changes -->
+                                    <button type="submit" class="btn btn-primary px-4">Save Changes</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

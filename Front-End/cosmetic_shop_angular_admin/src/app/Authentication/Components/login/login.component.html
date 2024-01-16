@@ -1,0 +1,53 @@
+<div class="container">
+    <div class="main-body">
+        <div class="row">
+
+
+            <div class="col-lg-10">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="title-4 mb-2"> Connexion</h2>
+                        <small *ngIf="errorMessage" class="text-danger">
+                            {{errorMessage}}
+                        </small>
+                        <form [formGroup]="form" (ngSubmit)="onSubmitLogin()">
+
+                            <div class="row mb-3">
+
+                                <div class="form-group col-sm-9 text-secondary">
+                                    <input type="email" formControlName="email"
+                                        placeholder="Entrez votre adresse e-mail" class="form-control" />
+                                    <small *ngIf="form.controls['email'].errors && form.controls['email'].touched"
+                                        class="text-danger">
+                                        {{ userService.service.getErrorMessage( 'email',
+                                        form.controls['email'].errors)}}
+                                    </small>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+
+                                <div class="form-group col-sm-9 text-secondary">
+                                    <input type="password" placeholder="Entrez votre Mot de passe"
+                                        formControlName="password" class="form-control" />
+                                    <small *ngIf="form.controls['password'].errors && form.controls['password'].touched"
+                                        class="text-danger">
+                                        {{ userService.service.getErrorMessage( 'le mot de passe',
+                                        form.controls['password'].errors)}}
+                                    </small>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-3"></div>
+                                <div class="col-sm-9 text-secondary">
+                                    <input [disabled]="form.invalid" type="submit" class="btn btn-primary px-4"
+                                        value="Se connecter" />
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

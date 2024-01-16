@@ -1,0 +1,109 @@
+<div class="page-content">
+    <!--breadcrumb-->
+    <div class="page-breadcrumb d-none d-sm-flex align-items-center mb-3">
+        <div class="breadcrumb-title pe-3">Pending Review</div>
+        <div class="ps-3">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb mb-0 p-0">
+                    <li class="breadcrumb-item"><a href="javascript:;"><i class="bx bx-home-alt"></i></a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Pending Review</li>
+                </ol>
+            </nav>
+        </div>
+        <div class="ms-auto">
+            <div class="btn-group"></div>
+        </div>
+    </div>
+    <!--end breadcrumb-->
+
+    <hr />
+    <div class="card">
+        <div class="card-body">
+            <div class="table-responsive">
+                <table id="example" class="table table-striped table-bordered" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th>Sl</th>
+                            <th>Image</th>
+                            <th>Product name</th>
+                            <th>First name</th>
+                            <th>Last name</th>
+                            <th>Review</th>
+                            <th>Rating</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let item of review">
+                            <ng-container *ngIf="item.valid === false">
+                                <td>{{ item.id }}</td>
+                                <td><img [src]="getImageUrl(item.image)" style="width: 40px; height:40px;"></td>
+                                <td class="long-text-cell">{{ item.product_name}}</td>
+                                <td>{{ item.lastName }}</td>
+                                <td>{{ item.firstName }}</td>
+                                <td class="long-text-cell">{{ item.review }}</td>
+                                <td>
+                                    <ng-container [ngSwitch]="item.rating">
+                                        <ng-container *ngSwitchCase="null">
+                                            <i class="bx bxs-star text-secondary"></i>
+                                            <i class="bx bxs-star text-secondary"></i>
+                                            <i class="bx bxs-star text-secondary"></i>
+                                            <i class="bx bxs-star text-secondary"></i>
+                                            <i class="bx bxs-star text-secondary"></i>
+                                        </ng-container>
+                                        <ng-container *ngSwitchCase="1">
+                                            <i class="bx bxs-star text-warning"></i>
+                                            <i class="bx bxs-star text-secondary"></i>
+                                            <i class="bx bxs-star text-secondary"></i>
+                                            <i class="bx bxs-star text-secondary"></i>
+                                            <i class="bx bxs-star text-secondary"></i>
+                                        </ng-container>
+                                        <ng-container *ngSwitchCase="2">
+                                            <i class="bx bxs-star text-warning"></i>
+                                            <i class="bx bxs-star text-warning"></i>
+                                            <i class="bx bxs-star text-secondary"></i>
+                                            <i class="bx bxs-star text-secondary"></i>
+                                            <i class="bx bxs-star text-secondary"></i>
+                                        </ng-container>
+                                        <ng-container *ngSwitchCase="3">
+                                            <i class="bx bxs-star text-warning"></i>
+                                            <i class="bx bxs-star text-warning"></i>
+                                            <i class="bx bxs-star text-warning"></i>
+                                            <i class="bx bxs-star text-secondary"></i>
+                                            <i class="bx bxs-star text-secondary"></i>
+                                        </ng-container>
+                                        <ng-container *ngSwitchCase="4">
+                                            <i class="bx bxs-star text-warning"></i>
+                                            <i class="bx bxs-star text-warning"></i>
+                                            <i class="bx bxs-star text-warning"></i>
+                                            <i class="bx bxs-star text-warning"></i>
+                                            <i class="bx bxs-star text-secondary"></i>
+                                        </ng-container>
+                                        <ng-container *ngSwitchCase="5">
+                                            <i class="bx bxs-star text-warning"></i>
+                                            <i class="bx bxs-star text-warning"></i>
+                                            <i class="bx bxs-star text-warning"></i>
+                                            <i class="bx bxs-star text-warning"></i>
+                                            <i class="bx bxs-star text-warning"></i>
+                                        </ng-container>
+                                    </ng-container>
+                                </td>
+                                <td>
+                                    <span class="badge rounded-pill bg-warning">Pending</span>
+                                </td>
+                                <td>
+                                    <a (click)="deleteReview(item.id)" class="btn btn-danger" id="delete"
+                                        title="Delete Data">
+                                        <i class="fa fa-trash"></i>
+                                    </a>
+                                    <button class="btn btn-success" (click)="validateReview(item)">Validate</button>
+                                </td>
+                            </ng-container>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
