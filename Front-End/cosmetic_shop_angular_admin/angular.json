@@ -1,0 +1,126 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "cosmetic_shop_angular": {
+      "projectType": "application",
+      "schematics": {},
+      "root": "",
+      "sourceRoot": "src",
+      "prefix": "app",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist/cosmetic_shop_angular",
+            "index": "src/index.html",
+            "main": "src/main.ts",
+            "polyfills": [
+              "zone.js"
+            ],
+            "tsConfig": "tsconfig.app.json",
+            "assets": [
+              "src/favicon.ico",
+              "src/app/assets"
+            ],
+            "styles": [
+              "src/styles.css",
+              "src/app/assets/plugins/vectormap/jquery-jvectormap-2.0.2.css",
+              "src/app/assets/plugins/simplebar/css/simplebar.css",
+              "src/app/assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css",
+              "src/app/assets/plugins/metismenu/css/metisMenu.min.css",
+              "src/app/assets/css/pace.min.css",
+              "src/app/assets/css/bootstrap.min.css",
+              "src/app/assets/css/app.css",
+              "src/app/assets/css/icons.css",
+              "src/app/assets/css/dark-theme.css",
+              "src/app/assets/css/semi-dark.css",
+              "src/app/assets/css/header-colors.css",
+              "node_modules/font-awesome/css/font-awesome.min.css"
+            ],
+            "scripts": [
+              "src/app/assets/js/pace.min.js",
+              "src/app/assets/js/bootstrap.bundle.min.js",
+              "src/app/assets/js/jquery.min.js",
+              "src/app/assets/plugins/simplebar/js/simplebar.min.js",
+              "src/app/assets/plugins/metismenu/js/metisMenu.min.js",
+              "src/app/assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js",
+              "src/app/assets/plugins/chartjs/js/Chart.min.js",
+              "src/app/assets/plugins/vectormap/jquery-jvectormap-2.0.2.min.js",
+              "src/app/assets/plugins/vectormap/jquery-jvectormap-world-mill-en.js",
+              "src/app/assets/plugins/jquery.easy-pie-chart/jquery.easypiechart.min.js",
+              "src/app/assets/plugins/sparkline-charts/jquery.sparkline.min.js",
+              "src/app/assets/plugins/jquery-knob/excanvas.js",
+              "src/app/assets/plugins/jquery-knob/jquery.knob.js",
+              "src/app/assets/js/index.js",
+              "src/app/assets/js/app.js"
+            ]
+          },
+          "configurations": {
+            "production": {
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "500kb",
+                  "maximumError": "1mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "2kb",
+                  "maximumError": "4kb"
+                }
+              ],
+              "outputHashing": "all"
+            },
+            "development": {
+              "buildOptimizer": false,
+              "optimization": false,
+              "vendorChunk": true,
+              "extractLicenses": false,
+              "sourceMap": true,
+              "namedChunks": true
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "configurations": {
+            "production": {
+              "browserTarget": "cosmetic_shop_angular:build:production"
+            },
+            "development": {
+              "browserTarget": "cosmetic_shop_angular:build:development"
+            }
+          },
+          "defaultConfiguration": "development"
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "cosmetic_shop_angular:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing"
+            ],
+            "tsConfig": "tsconfig.spec.json",
+            "assets": [
+              "src/favicon.ico"
+            ],
+            "styles": [
+              "@angular/material/prebuilt-themes/indigo-pink.css",
+              "src/styles.css"
+            ],
+            "scripts": []
+          }
+        }
+      }
+    }
+  }
+}

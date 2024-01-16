@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f5096465-f772-4730-a06c-36d4f22fe495" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Back-end_shop_cosmetic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-end_shop_cosmetic/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/BackEndShopCosmeticApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/BackEndShopCosmeticApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/User/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/User/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/banner/BannerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/banner/BannerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/banner/BannerDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/banner/BannerDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/banner/BannerEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/banner/BannerEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/banner/BannerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/banner/BannerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/banner/BannerServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/banner/BannerServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/blog/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/blog/BlogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/blog/BlogEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/blog/BlogEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/blog/BlogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/blog/BlogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/blog/BlogServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/blog/BlogServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/brand/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/brand/BrandController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/brand/BrandDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/brand/BrandDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/brand/BrandEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/brand/BrandEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/brand/BrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/brand/BrandService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/brand/BrandServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/brand/BrandServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/catalogue/CatalogueDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/catalogue/CatalogueDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/catalogue/CatalogueEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/catalogue/CatalogueEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/category/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/category/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/category/CategoryDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/category/CategoryDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/category/CategoryEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/category/CategoryEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/contact/ContactController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/contact/ContactController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/contact/ContactServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/contact/ContactServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/ingredient/IngredientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/ingredient/IngredientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/ingredient/IngredientEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/ingredient/IngredientEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/ingredient/IngredientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/ingredient/IngredientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/ingredient/IngredientServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/ingredient/IngredientServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/ingredient/IngredientsDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/ingredient/IngredientsDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/product/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/product/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/product/ProductDtoRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/product/ProductDtoRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/product/ProductDtoResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/product/ProductDtoResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/product/ProductEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/product/ProductEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/product/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/product/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/product/ProductServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-end_shop_cosmetic/src/main/java/com/Mcom/Backend_shop_cosmetic/product/ProductServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/Authentication/Components/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/Authentication/Components/login/login.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/Authentication/services/auth-service.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/Authentication/services/auth-service.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Brand/add-brand/add-brand.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Brand/add-brand/add-brand.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Brand/add-brand/add-brand.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Brand/add-brand/add-brand.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Brand/all-brand/all-brand.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Brand/all-brand/all-brand.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Brand/all-brand/all-brand.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Brand/all-brand/all-brand.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Brand/edit-brand/edit-brand.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Brand/edit-brand/edit-brand.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Brand/edit-brand/edit-brand.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Brand/edit-brand/edit-brand.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Categorie/add-categorie/add-categorie.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Categorie/add-categorie/add-categorie.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Categorie/add-categorie/add-categorie.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Categorie/add-categorie/add-categorie.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Categorie/all-categorie/all-categorie.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Categorie/all-categorie/all-categorie.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Categorie/all-categorie/all-categorie.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Categorie/all-categorie/all-categorie.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Categorie/edit-categorie/edit-categorie.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Categorie/edit-categorie/edit-categorie.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Coupon/add-coupon/add-coupon.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Coupon/add-coupon/add-coupon.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Coupon/all-coupon/all-coupon.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Coupon/all-coupon/all-coupon.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Order/confirmed-orders/confirmed-orders.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Order/confirmed-orders/confirmed-orders.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Order/delivred-orders/delivred-orders.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Order/delivred-orders/delivred-orders.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Order/order-details/order-details.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Order/order-details/order-details.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Order/order-details/order-details.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Order/order-details/order-details.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Order/pending-orders/pending-orders.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Order/pending-orders/pending-orders.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Product/add-product/add-product.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Product/add-product/add-product.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Product/add-product/add-product.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Product/add-product/add-product.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Product/all-product/all-product.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Product/all-product/all-product.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Product/all-product/all-product.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Product/all-product/all-product.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Product/edit-product/edit-product.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Product/edit-product/edit-product.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Product/edit-product/edit-product.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Product/edit-product/edit-product.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Product/stock-product/stock-product.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Product/stock-product/stock-product.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Product/stock-product/stock-product.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Product/stock-product/stock-product.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Reviews/pending-reviews/pending-reviews.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Reviews/pending-reviews/pending-reviews.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Reviews/pending-reviews/pending-reviews.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Reviews/pending-reviews/pending-reviews.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Reviews/publish-reviews/publish-reviews.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Reviews/publish-reviews/publish-reviews.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Slider/add-slider/add-slider.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Slider/add-slider/add-slider.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Slider/add-slider/add-slider.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Slider/add-slider/add-slider.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Slider/all-slider/all-slider.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Slider/all-slider/all-slider.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Slider/all-slider/all-slider.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Slider/all-slider/all-slider.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Sous-categorie/add-sous-categorie/add-sous-categorie.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Sous-categorie/add-sous-categorie/add-sous-categorie.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Sous-categorie/all-sous-categorie/all-sous-categorie.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Sous-categorie/all-sous-categorie/all-sous-categorie.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Sous-categorie/all-sous-categorie/all-sous-categorie.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Sous-categorie/all-sous-categorie/all-sous-categorie.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Sous-categorie/edit-sous-categorie/edit-sous-categorie.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Sous-categorie/edit-sous-categorie/edit-sous-categorie.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Sous-categorie/edit-sous-categorie/edit-sous-categorie.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Sous-categorie/edit-sous-categorie/edit-sous-categorie.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Users/all-users/all-users.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Users/all-users/all-users.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Users/all-users/all-users.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/Users/all-users/all-users.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/bioIngredients/add-bio-ingredients/add-bio-ingredients.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/bioIngredients/add-bio-ingredients/add-bio-ingredients.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/bioIngredients/add-bio-ingredients/add-bio-ingredients.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/bioIngredients/add-bio-ingredients/add-bio-ingredients.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/bioIngredients/all-bio-ingredients/all-bio-ingredients.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/bioIngredients/all-bio-ingredients/all-bio-ingredients.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/bioIngredients/all-bio-ingredients/all-bio-ingredients.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/bioIngredients/all-bio-ingredients/all-bio-ingredients.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/bioIngredients/edit-bio-ingredients/edit-bio-ingredients.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/bioIngredients/edit-bio-ingredients/edit-bio-ingredients.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/bioIngredients/edit-bio-ingredients/edit-bio-ingredients.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/bioIngredients/edit-bio-ingredients/edit-bio-ingredients.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/blogs/add-blogs/add-blogs.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/blogs/add-blogs/add-blogs.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/blogs/add-blogs/add-blogs.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/blogs/add-blogs/add-blogs.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/blogs/all-blogs/all-blogs.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/blogs/all-blogs/all-blogs.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/blogs/all-blogs/all-blogs.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/blogs/all-blogs/all-blogs.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/blogs/edit-blogs/edit-blogs.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/blogs/edit-blogs/edit-blogs.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/blogs/edit-blogs/edit-blogs.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/blogs/edit-blogs/edit-blogs.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/contact/edit-contact/edit-contact.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/contact/edit-contact/edit-contact.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/header/header.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/profile/profile/profile.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/profile/profile/profile.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/profile/profile/profile.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/profile/profile/profile.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/reclamaton/all-reclamations/all-reclamations.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/reclamaton/all-reclamations/all-reclamations.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/report/dashboard/dashboard.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/report/dashboard/dashboard.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/report/dashboard/dashboard.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/report/dashboard/dashboard.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/sidebar/sidebar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/components/sidebar/sidebar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/models/poduct.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/models/poduct.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/services/bio-ingredients.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/services/bio-ingredients.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/services/blog.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/services/blog.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/services/brand.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/services/brand.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/services/category.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/services/category.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/services/contact.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/services/contact.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/services/product.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/services/product.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/services/slider-service.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/services/slider-service.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/services/sous-category.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/services/sous-category.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/services/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/admin/services/user.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/blog/blog-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/blog/blog-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/blog/blog-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/blog/blog-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/blog/blog-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/blog/blog-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/shop/product-2-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/shop/product-2-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/shop/product-2-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/shop/product-2-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/shop/product-3-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/shop/product-3-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/shop/product-3-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/shop/product-3-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/shop/product-4-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/shop/product-4-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/shop/product-4-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/shop/product-4-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/shop/product-5-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/shop/product-5-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/shop/product-5-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/shop/product-5-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/shop/product-6-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/shop/product-6-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/shop/product-6-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/shop/product-6-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/favicon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/favicon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/category-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/category-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/category-10.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/category-10.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/category-11.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/category-11.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/category-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/category-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/category-3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/category-3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/category-4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/category-4.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/category-5.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/category-5.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/category-6.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/category-6.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/category-7.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/category-7.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/category-8.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/category-8.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/category-9.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/category-9.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/icon-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/icon-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/icon-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/icon-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/icon-3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/icon-3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/icon-4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/icon-4.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/icon-5.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/icon-5.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/icon-6.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/icon-6.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/icon-bookmark.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/icon-bookmark.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/icon-cart.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/icon-cart.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/icon-clock.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/icon-clock.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/icon-compare.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/icon-compare.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/icon-contact.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/icon-contact.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/icon-download.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/icon-download.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/icon-email-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/icon-email-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/icon-headphone-white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/icon-headphone-white.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/icon-headphone.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/icon-headphone.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/icon-heart-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/icon-heart-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/icon-heart.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/icon-heart.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/icon-hot-white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/icon-hot-white.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/icon-hot.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/icon-hot.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/icon-location.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/icon-location.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/icon-print.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/icon-print.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/icon-user.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/icon-user.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/logo-apple.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/logo-apple.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/logo-facebook.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/logo-facebook.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/logo-google.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/logo-google.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/payment-master.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/payment-master.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/payment-paypal.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/payment-paypal.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/payment-visa.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/payment-visa.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/payment-zapper.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/payment-zapper.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/social-fb.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/social-fb.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/social-insta.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/social-insta.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/social-pin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/social-pin.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/social-tw.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/icons/social-tw.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/logo-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/logo-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/logo-light.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/logo-light.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/_user/imgs/theme/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetic_shop_angular/src/app/assets/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/cjs/enums.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/cjs/enums.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/cjs/enums.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/cjs/popper-base.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/cjs/popper-base.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/cjs/popper-base.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/cjs/popper-lite.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/cjs/popper-lite.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/cjs/popper-lite.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/cjs/popper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/cjs/popper.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/cjs/popper.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/createPopper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/dom-utils/contains.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/dom-utils/getBoundingClientRect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/dom-utils/getClippingRect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/dom-utils/getCompositeRect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/dom-utils/getComputedStyle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/dom-utils/getDocumentElement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/dom-utils/getDocumentRect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/dom-utils/getHTMLElementScroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/dom-utils/getLayoutRect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/dom-utils/getNodeName.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/dom-utils/getNodeScroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/dom-utils/getOffsetParent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/dom-utils/getParentNode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/dom-utils/getScrollParent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/dom-utils/getViewportRect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/dom-utils/getWindow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/dom-utils/getWindowScroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/dom-utils/getWindowScrollBarX.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/dom-utils/instanceOf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/dom-utils/isLayoutViewport.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/dom-utils/isScrollParent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/dom-utils/isTableElement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/dom-utils/listScrollParents.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/enums.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/modifiers/applyStyles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/modifiers/arrow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/modifiers/computeStyles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/modifiers/eventListeners.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/modifiers/flip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/modifiers/hide.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/modifiers/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/modifiers/offset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/modifiers/popperOffsets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/modifiers/preventOverflow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/popper-base.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/popper-lite.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/popper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/types.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/utils/computeAutoPlacement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/utils/computeOffsets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/utils/debounce.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/utils/detectOverflow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/utils/expandToHashMap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/utils/getAltAxis.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/utils/getAltLen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/utils/getBasePlacement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/utils/getFreshSideObject.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/utils/getMainAxisFromPlacement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/utils/getOppositePlacement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/utils/getOppositeVariationPlacement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/utils/getVariation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/utils/math.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/utils/mergeByName.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/utils/mergePaddingObject.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/utils/orderModifiers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/utils/rectToClientRect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/utils/uniqueBy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/utils/userAgent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/esm/utils/within.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/umd/enums.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/umd/enums.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/umd/enums.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/umd/enums.min.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/umd/enums.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/umd/popper-base.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/umd/popper-base.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/umd/popper-base.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/umd/popper-base.min.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/umd/popper-base.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/umd/popper-lite.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/umd/popper-lite.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/umd/popper-lite.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/umd/popper-lite.min.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/umd/popper-lite.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/umd/popper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/umd/popper.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/umd/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/umd/popper.min.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/dist/umd/popper.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/createPopper.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/createPopper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/createPopper.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/contains.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/contains.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/contains.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getBoundingClientRect.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getBoundingClientRect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getBoundingClientRect.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getClippingRect.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getClippingRect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getClippingRect.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getCompositeRect.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getCompositeRect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getCompositeRect.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getComputedStyle.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getComputedStyle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getComputedStyle.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getDocumentElement.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getDocumentElement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getDocumentElement.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getDocumentRect.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getDocumentRect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getDocumentRect.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getHTMLElementScroll.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getHTMLElementScroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getHTMLElementScroll.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getLayoutRect.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getLayoutRect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getLayoutRect.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getNodeName.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getNodeName.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getNodeName.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getNodeScroll.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getNodeScroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getNodeScroll.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getOffsetParent.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getOffsetParent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getOffsetParent.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getParentNode.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getParentNode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getParentNode.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getScrollParent.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getScrollParent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getScrollParent.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getViewportRect.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getViewportRect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getViewportRect.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getWindow.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getWindow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getWindow.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getWindowScroll.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getWindowScroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getWindowScroll.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getWindowScrollBarX.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getWindowScrollBarX.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/getWindowScrollBarX.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/instanceOf.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/instanceOf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/instanceOf.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/isLayoutViewport.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/isLayoutViewport.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/isLayoutViewport.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/isScrollParent.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/isScrollParent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/isScrollParent.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/isTableElement.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/isTableElement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/isTableElement.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/listScrollParents.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/listScrollParents.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/dom-utils/listScrollParents.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/enums.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/enums.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/enums.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/index.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/modifiers/applyStyles.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/modifiers/applyStyles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/modifiers/applyStyles.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/modifiers/arrow.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/modifiers/arrow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/modifiers/arrow.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/modifiers/computeStyles.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/modifiers/computeStyles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/modifiers/computeStyles.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/modifiers/eventListeners.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/modifiers/eventListeners.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/modifiers/eventListeners.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/modifiers/flip.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/modifiers/flip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/modifiers/flip.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/modifiers/hide.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/modifiers/hide.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/modifiers/hide.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/modifiers/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/modifiers/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/modifiers/index.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/modifiers/offset.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/modifiers/offset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/modifiers/offset.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/modifiers/popperOffsets.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/modifiers/popperOffsets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/modifiers/popperOffsets.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/modifiers/preventOverflow.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/modifiers/preventOverflow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/modifiers/preventOverflow.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/popper-base.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/popper-base.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/popper-base.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/popper-lite.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/popper-lite.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/popper-lite.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/popper.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/popper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/popper.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/types.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/types.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/types.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/computeAutoPlacement.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/computeAutoPlacement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/computeAutoPlacement.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/computeOffsets.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/computeOffsets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/computeOffsets.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/debounce.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/debounce.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/debounce.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/detectOverflow.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/detectOverflow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/detectOverflow.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/expandToHashMap.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/expandToHashMap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/expandToHashMap.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/getAltAxis.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/getAltAxis.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/getAltAxis.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/getAltLen.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/getAltLen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/getAltLen.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/getBasePlacement.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/getBasePlacement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/getBasePlacement.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/getFreshSideObject.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/getFreshSideObject.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/getFreshSideObject.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/getMainAxisFromPlacement.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/getMainAxisFromPlacement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/getMainAxisFromPlacement.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/getOppositePlacement.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/getOppositePlacement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/getOppositePlacement.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/getOppositeVariationPlacement.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/getOppositeVariationPlacement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/getOppositeVariationPlacement.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/getVariation.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/getVariation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/getVariation.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/math.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/math.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/math.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/mergeByName.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/mergeByName.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/mergeByName.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/mergePaddingObject.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/mergePaddingObject.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/mergePaddingObject.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/orderModifiers.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/orderModifiers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/orderModifiers.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/rectToClientRect.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/rectToClientRect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/rectToClientRect.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/uniqueBy.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/uniqueBy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/uniqueBy.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/userAgent.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/userAgent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/userAgent.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/within.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/within.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/lib/utils/within.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@popperjs/core/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-grid.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-grid.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-grid.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-reboot.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-reboot.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-reboot.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-utilities.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-utilities.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-utilities.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-utilities.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-utilities.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-utilities.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-utilities.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.esm.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.esm.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.esm.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/alert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/alert.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/base-component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/base-component.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/button.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/carousel.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/collapse.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/dom/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/dom/data.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/dom/event-handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/dom/event-handler.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/dom/manipulator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/dom/manipulator.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/dom/selector-engine.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/dom/selector-engine.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/dropdown.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/modal.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/offcanvas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/offcanvas.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/popover.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/popover.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/scrollspy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/scrollspy.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/tab.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/toast.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/toast.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/tooltip.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/backdrop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/backdrop.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/component-functions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/component-functions.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/config.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/focustrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/focustrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/sanitizer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/sanitizer.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/scrollbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/scrollbar.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/swipe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/swipe.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/template-factory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/template-factory.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/index.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/index.umd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/alert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/base-component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/dom/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/dom/event-handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/dom/manipulator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/dom/selector-engine.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/offcanvas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/popover.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/scrollspy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/toast.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/util/backdrop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/util/component-functions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/util/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/util/focustrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/util/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/util/sanitizer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/util/scrollbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/util/swipe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/util/template-factory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_accordion.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_breadcrumb.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_button-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_card.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_carousel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_close.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_containers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_dropdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_helpers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_images.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_maps.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_modal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_nav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_offcanvas.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_placeholders.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_popover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_progress.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_root.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_spinners.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_toasts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_tooltip.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_transitions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_type.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_variables-dark.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/bootstrap-grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/bootstrap-reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/bootstrap-utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/bootstrap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/forms/_floating-labels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/forms/_form-check.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/forms/_form-control.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/forms/_form-range.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/forms/_form-select.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/forms/_form-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/forms/_input-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/forms/_labels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/forms/_validation.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/helpers/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/helpers/_color-bg.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/helpers/_colored-links.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/helpers/_focus-ring.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/helpers/_icon-link.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/helpers/_position.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/helpers/_ratio.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/helpers/_stacks.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/helpers/_stretched-link.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/helpers/_text-truncation.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/helpers/_visually-hidden.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/helpers/_vr.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_backdrop.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_banner.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_border-radius.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_box-shadow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_breakpoints.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_caret.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_color-mode.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_color-scheme.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_container.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_deprecate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_gradients.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_image.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_lists.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_reset-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_resize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_table-variants.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_text-truncate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_transition.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_visually-hidden.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/utilities/_api.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/vendor/_rfs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2T9IpM1fztRn9xFqoiSiwYSAjYy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/merye/Downloads/Mcom/CosmeticShop_SpringBoot_Angular/Front-End/cosmetic_shop_angular",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f5096465-f772-4730-a06c-36d4f22fe495" name="Changes" comment="" />
+      <created>1690449052038</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690449052038</updated>
+      <workItem from="1690449053110" duration="76000" />
+      <workItem from="1697120048042" duration="115000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
