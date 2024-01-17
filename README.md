@@ -1,9 +1,3 @@
-Certainly, let me refine the README using a more consistent style:
-
----
-
-# CosmeticShop_SpringBoot_Angular
-
 ## Cosmetic Shop E-Commerce Project
 
 This project is an e-commerce platform for cosmetic products, developed with Spring Boot, Angular, and an SQL database. The system includes both a user interface and an admin interface.
@@ -44,8 +38,10 @@ This project is an e-commerce platform for cosmetic products, developed with Spr
 
 ### Video Presentation
 
-Watch a video overview of the project on [YouTube](https://youtu.be/g5HAzwRnWTU?si=TmcXYh_APGRh1yk2).
+Watch a video overview of the project on 
 
+
+[![Watch the video](https://example.com/video_thumbnail.jpg)]([https://youtu.be/g5HAzwRnWTU?si=TmcXYh_APGRh1yk2]).
 ### Database Setup
 
 To set up the database, follow these steps:
