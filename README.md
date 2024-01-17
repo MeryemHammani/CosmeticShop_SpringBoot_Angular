@@ -41,7 +41,7 @@ This project is an e-commerce platform for cosmetic products, developed with Spr
 Watch a video overview of the project on 
 
 
-[![Watch the video](https://example.com/video_thumbnail.jpg)]([https://youtu.be/g5HAzwRnWTU?si=TmcXYh_APGRh1yk2]).
+[Youtube]([https://youtu.be/g5HAzwRnWTU?si=TmcXYh_APGRh1yk2]).
 ### Database Setup
 
 To set up the database, follow these steps:
